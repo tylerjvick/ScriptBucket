@@ -1,0 +1,38 @@
+{
+  "name": "script-bucket",
+  "version": "1.0.0",
+  "description": "A Chrome extension to store and execute JavaScript in the browser.",
+  "main": "app/app.js",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-animate": "^1.4.8",
+    "angular-aria": "^1.4.8",
+    "angular-material": "^1.0.1",
+    "angular-material-icons": "^0.6.0",
+    "browserify": "^12.0.1",
+    "chromestore.js": "1.0.0",
+    "jshint": "^2.8.0",
+    "material-colors": "^1.0.0",
+    "ng-file-upload": "^11.0.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-cleanhtml": "^1.0.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-jshint": "^2.0.0",
+    "gulp-less": "^3.0.5",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-zip": "^3.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tyler Vick",
+  "license": "ISC"
+}
